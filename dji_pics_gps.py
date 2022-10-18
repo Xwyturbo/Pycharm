@@ -63,7 +63,7 @@ def find_address_from_GPS(GPS):
     district = baidu_map_address["result"]["addressComponent"]["district"]
     return formatted_address,province,city,district
 
-pic_path = 'C:\cnu_workplace\济宁调研\汶上县康驿镇东樊章村\无人机照片\DJI_0189.jpg'
+pic_path = 'C:\cnu_workplace\DJI_0189.jpg'
 GPS_info = find_GPS_image(pic_path)
 address = find_address_from_GPS(GPS=GPS_info)
 #print(GPS_info)
